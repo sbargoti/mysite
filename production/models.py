@@ -6,3 +6,6 @@ class Manufacturer(models.Model):
 
     def __unicode__(self):
         return self.name
+    
+    def ManCars(self):
+        return self.car_set.all()
