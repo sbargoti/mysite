@@ -132,6 +132,8 @@ INSTALLED_APPS = (
     'polls',
     'production',
     'vehicle',
+    'onetoone',
+    'manytomany',
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
